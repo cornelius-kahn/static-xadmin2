@@ -7,7 +7,7 @@ $(function () {
     });
 
     //触发事件
-  var tab = {
+    var tab = {
         tabAdd: function(title,url,id){
           //新增一个Tab项
           element.tabAdd('xbs_tab', {
@@ -27,8 +27,7 @@ $(function () {
           //切换到指定Tab项
           element.tabChange('xbs_tab', id); //切换到：用户管理
         }
-      };
-
+    };
 
     tableCheck = {
         init:function  () {
